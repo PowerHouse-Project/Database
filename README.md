@@ -3,11 +3,15 @@
 ## Database Design:
 
 - Tables
-    1. **Groups:**
+    1. **Users:**
+        - ID (PK)
+        - Admin Level 
+        - Devices (FK)
+    2. **Groups:**
         - ID (PK)
         - Name
         - Devices (FK)
-    2. **Devices:**
+    3. **Devices:**
         - ID (PK)
         - Name
         - Room
@@ -15,12 +19,12 @@
             - Model
             - Connection type
             - IP Address
-    3. **Energy:**
+    4. **Energy:**
         - Total Energy Usage
             - Daily
         - Energy Per Device
             - Device (FK)
-    4. **Automation Schedules:**
+    5. **Automation Schedules:**
         - ID (PK)
         - Action
             - Device (FK)
@@ -28,3 +32,6 @@
         - Condition
             - Device (FK)
             - Time
+    6. **Energy Saving Goals:**
+        - Energy Goal
+    

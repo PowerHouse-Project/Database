@@ -43,12 +43,3 @@ Database: {
     }
 
 }
-    "Automation Schedules": {  #nested conditions not satisfied 
-      "schedule_id": 1,
-      "Action" : "Turn on."
-        "Device":{ 
-          "_id": 1,
-        },
-      "Conditions": 
-    }
-    
