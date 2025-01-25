@@ -24,19 +24,31 @@ Database: {
     }
   ], 
   [
-    "Energy": {
+    "Energy": {  #real time data consumption not captured 
       "Total energy usage": [
         "Daily": {
           
+           },
+      
+      ]
+      "Energy per device": [
+        "Device": { 
+          "_id": 1,
         },
-        "Weekly": {
-
-        },
-        "Monthly": {
+        "Daily": {
 
         }
+      
       ]
     }
-  ]
-}
 
+}
+    "Automation Schedules": {  #nested conditions not satisfied 
+      "schedule_id": 1,
+      "Action" : "Turn on."
+        "Device":{ 
+          "_id": 1,
+        },
+      "Conditions": 
+    }
+    
