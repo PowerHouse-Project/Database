@@ -1,0 +1,42 @@
+Database: {
+  [
+    "Groups": {
+      [
+        "name": "Bedroom lights",
+        "devices": {
+          "_id": 1
+        } 
+      ],
+    }
+  ],
+  [
+    "Devices": {
+      [
+        "_id": 1,
+        "name": "LG Hue",
+        "room": "Bedroom",
+        "information": {
+          "model": "Hue 2",
+          "connection type": "Wi-Fi",
+          "ip address": "127.x.x.x",
+        },
+      ]
+    }
+  ], 
+  [
+    "Energy": {
+      "Total energy usage": [
+        "Daily": {
+          
+        },
+        "Weekly": {
+
+        },
+        "Monthly": {
+
+        }
+      ]
+    }
+  ]
+}
+
