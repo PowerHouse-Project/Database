@@ -34,4 +34,6 @@
             - Time
     6. **Energy Saving Goals:**
         - Energy Goal
-    
+    7.  **Profile Pin:**
+        - User(FK)
+        - Pin 
