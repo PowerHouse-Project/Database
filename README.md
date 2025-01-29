@@ -20,10 +20,9 @@
             - Connection type
             - IP Address
     4. **Energy:**
-        - Total Energy Usage
-            - Daily
-        - Energy Per Device
+        - Daily Energy Per Device
             - Device (FK)
+            - Date
     5. **Automation Schedules:**
         - ID (PK)
         - Action
