@@ -11,15 +11,10 @@
         - Name
         - Devices (FK)
     3. **Device:**
-        - ID (PK)
         - Name
-        - Room
         - Information
-            - Model
-            - Connection type
-            - IP Address
+        - IP Address
     4. **Energy:**
-        - Daily Energy Per Device
             - Device (FK)
             - Date
     5. **Automation Schedule:**
