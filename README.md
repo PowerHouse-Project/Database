@@ -3,15 +3,14 @@
 ## Database Design:
 
 - Tables
-    1. **Users:**
-        - ID (PK)
+    1. **Profile:**
         - Admin Level 
-        - Devices (FK)
-    2. **Groups:**
-        - ID (PK)
+        - Devices Admissible (FK)
+        - Pin
+    2. **Group:**
         - Name
         - Devices (FK)
-    3. **Devices:**
+    3. **Device:**
         - ID (PK)
         - Name
         - Room
@@ -23,7 +22,7 @@
         - Daily Energy Per Device
             - Device (FK)
             - Date
-    5. **Automation Schedules:**
+    5. **Automation Schedule:**
         - ID (PK)
         - Action
             - Device (FK)
@@ -31,8 +30,8 @@
         - Condition
             - Device (FK)
             - Time
-    6. **Energy Saving Goals:**
-        - Energy Goal
-    7.  **Profile Pin:**
-        - User(FK)
-        - Pin 
+    6. **Energy Goal:**
+        - Datestamp 
+        - Duration //end date is evaluation date, stats on this should be displayed on end date 
+        - Goal Energy
+
