@@ -21,11 +21,11 @@
         - ID (PK)
         - Action
             - Device (FK)
-            - Time
-        - Condition
+            - Status 
+        - Condition (Optional Field)
             - Device (FK)
             - Time
-    6. **Energy Goal:**
+    7. **Energy Goal:**
         - Datestamp 
         - Duration //end date is evaluation date, stats on this should be displayed on end date 
         - Goal Energy
