@@ -27,6 +27,8 @@
             - Time
     7. **Energy Goal:**
         - Datestamp 
-        - Duration //end date is evaluation date, stats on this should be displayed on end date 
+        - Duration //end date is evaluation date, stats on this should be displayed on end date
         - Goal Energy
-
+    8. **Energy Achievement:**
+       - Badge Name
+       
