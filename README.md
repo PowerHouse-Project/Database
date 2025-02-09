@@ -4,20 +4,23 @@
 
 - Tables
     1. **Profile:**
+        - ID (PK)
         - Admin Level 
         - Devices Admissible (FK)
         - Pin
-    2. **Group:**
+    3. **Group:**
+        - ID (PK)
         - Name
         - Devices (FK)
-    3. **Device:**
+    5. **Device:**
+        - ID (PK)
         - Name
-        - Information
         - IP Address
-    4. **Energy:**
-            - Device (FK)
-            - Date
-    5. **Automation Schedule:**
+    7. **Energy:**
+        - ID (PK)
+        - Device (FK)
+        - Date
+    8. **Automation Schedule:**
         - ID (PK)
         - Action
             - Device (FK)
@@ -25,10 +28,12 @@
         - Condition (Optional Field)
             - Device (FK)
             - Time
-    7. **Energy Goal:**
+    9. **Energy Goal:**
+        - ID (PK)
         - Datestamp 
         - Duration //end date is evaluation date, stats on this should be displayed on end date
         - Goal Energy
-    8. **Energy Achievement:**
-       - Badge Name
+    10. **Energy Achievement:**
+        - ID (PK)
+        - Badge Name
        
