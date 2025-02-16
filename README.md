@@ -8,7 +8,7 @@
         - Admin Level 
         - Devices Admissible (FK)
         - Pin
-    3. **Group:**
+    3. **Device Group:**
         - ID (PK)
         - Name
         - Devices (FK)
@@ -16,7 +16,7 @@
         - ID (PK)
         - Name
         - IP Address
-    7. **Energy:**
+    7. **Device Energy per day:**
         - ID (PK)
         - Device (FK)
         - Date
@@ -30,8 +30,8 @@
             - Time
     9. **Energy Goal:**
         - ID (PK)
-        - Datestamp 
-        - Duration //end date is evaluation date, stats on this should be displayed on end date
+        - startDate 
+        - endDate 
         - Goal Energy
     10. **Energy Achievement:**
         - ID (PK)
