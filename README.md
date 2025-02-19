@@ -5,9 +5,9 @@
 - Tables
     1. **Profile:**
         - ID (PK)
+        - Name
         - Admin Level 
         - Devices Admissible (FK)
-        - Pin
     3. **Device Group:**
         - ID (PK)
         - Name
